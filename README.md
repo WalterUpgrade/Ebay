@@ -1,4 +1,4 @@
-# Build Full-ECommerce Website By Next.js 15 & MongoDB
+# Build Ebay By Next.js 15 & MongoDB
 
 |                |                                  |
 | -------------- | -------------------------------- |
@@ -30,7 +30,7 @@
 1. Clone repo
 
    ```shell
-    $ git clone https://github.com/WalterUpgrade/Vinted.git
+    $ git clone https://github.com/WalterUpgrade/Ebay.git
 
 2. Create Env File
 

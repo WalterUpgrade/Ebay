@@ -1220,7 +1220,7 @@ We also provide helpful resources such as order tracking, product guides, and FA
   ],
   carousels: [
     {
-      title: 'Most Popular Shoes For Sale',
+      title: 'New-in fashion you\'ll love',
       buttonCaption: 'Shop Now',
       image: '/images/banner3.jpg',
       url: '/search?category=Shoes',
@@ -1266,7 +1266,7 @@ We also provide helpful resources such as order tracking, product guides, and FA
       },
       carousels: [
         {
-          title: 'Most Popular Shoes For Sale',
+          title: 'New-in fashion you\'ll love',
           buttonCaption: 'Shop Now',
           image: '/images/banner3.jpg',
           url: '/search?category=Shoes',

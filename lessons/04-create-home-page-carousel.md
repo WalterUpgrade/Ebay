@@ -7,7 +7,7 @@
    const data = {
      carousels: [
        {
-         title: 'Most Popular Shoes For Sale',
+         title: 'New-in fashion you\'ll love',
          buttonCaption: 'Shop Now',
          image: '/images/banner3.jpg',
          url: '/search?category=Shoes',

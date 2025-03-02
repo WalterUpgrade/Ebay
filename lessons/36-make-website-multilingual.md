@@ -259,7 +259,7 @@ import { i18n } from '@/i18n-config'
       },
       carousels: [
         {
-          title: 'Most Popular Shoes For Sale',
+          title: 'New-in fashion you'll love',
           buttonCaption: 'Shop Now',
           image: '/images/banner3.jpg',
           url: '/search?category=Shoes',
@@ -757,7 +757,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
     "Best Selling Products": "Best Selling Products",
     "Related to items that you've viewed": "Related to items that you've viewed",
     "Your browsing history": "Your browsing history",
-    "Most Popular Shoes For Sale": "Most Popular Shoes For Sale",
+    "New-in fashion you'll love": "New-in fashion you'll love",
     "Best Sellers in T-Shirts": "Best Sellers in T-Shirts",
     "Best Deals on Wrist Watches": "Best Deals on Wrist Watches"
   },
@@ -975,7 +975,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
     "Best Selling Products": "المنتجات الأكثر مبيعًا",
     "Related to items that you've viewed": "ذات صلة بالعناصر التي عرضتها",
     "Your browsing history": "سجل التصفح الخاص بك",
-    "Most Popular Shoes For Sale": "الأحذية الأكثر شعبية للبيع",
+    "New-in fashion you'll love": "جديد الموضة التي ستحبها",
     "Best Sellers in T-Shirts": "الأكثر مبيعًا في التيشيرتات",
     "Best Deals on Wrist Watches": "أفضل العروض على ساعات المعصم"
   },
@@ -1194,7 +1194,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
     "Best Selling Products": "Produits les plus vendus",
     "Related to items that you've viewed": "Lié aux articles que vous avez consultés",
     "Your browsing history": "Votre historique de navigation",
-    "Most Popular Shoes For Sale": "Chaussures les plus populaires à vendre",
+    "New-in fashion you'll love": "Une nouvelle mode que vous allez adorer",
     "Best Sellers in T-Shirts": "Meilleures ventes de t-shirts",
     "Best Deals on Wrist Watches": "Meilleures offres sur les montres-bracelets"
   },
