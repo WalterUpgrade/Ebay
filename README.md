@@ -51,12 +51,56 @@
      npm run seed
    ```
 
+
+   ¿Qué hace npm run seed en este proyecto?
+En proyectos como este, que son aplicaciones de e-commerce basadas en Next.js y MongoDB, npm run seed se utiliza para poblar la base de datos inicial con datos de prueba o de ejemplo. Esto es especialmente importante porque:
+Proporciona datos iniciales para el desarrollo:
+Este proyecto, al ser un clon de una tienda en línea como Amazon, necesita datos de productos, categorías, configuraciones, usuarios (como el admin), y posiblemente órdenes o carritos para que las páginas y funcionalidades se rendericen correctamente.
+
+Sin estos datos, funciones como getProductsByTag, getAllCategories, o getSetting en tu archivo HomePage devolverían arrays vacíos, null, o undefined, lo que impediría que componentes como ProductSlider o HomeCarousel muestren contenido.
+
+Simula un entorno realista:
+El seeding crea un conjunto de datos predefinidos (por ejemplo, productos como relojes, categorías como "Wrist Watches", etiquetas como "todays-deal" o "best-seller", y configuraciones como carrusels) para que puedas probar la aplicación localmente sin necesidad de crear manualmente cada elemento.
+
+En el caso de tu captura, las secciones "Today's Deals" y "Best Selling Products" no se mostraban porque no había productos en la base de datos con las etiquetas correspondientes hasta que ejecutaste npm run seed.
+
+Facilita el desarrollo y la depuración:
+Al tener datos iniciales, puedes verificar que las consultas a la base de datos, las rutas, los componentes y las acciones del servidor (Server Actions) funcionan como se espera.
+
+También permite probar flujos como la autenticación (por ejemplo, el login del admin con "admin@example.com" y "123456") y la navegación por la tienda.
+
+Es común en proyectos con bases de datos NoSQL como MongoDB:
+MongoDB no tiene un esquema fijo, y los datos se almacenan como documentos JSON. El script de seeding (generalmente en un archivo como seed.ts o seed.js) define y guarda estos documentos en colecciones específicas (como "products", "categories", "settings", etc.) usando Mongoose, el ORM que conecta Next.js con MongoDB.
+
+
+
 5. Install and Run
 
    ```shell
      npm install --legacy-peer-deps
      npm run dev
    ```
+
+
+   ¿Qué hace npm install --legacy-peer-deps?
+Instala las dependencias listadas en package.json:
+El comando npm install (o simplemente npm i) instala todas las dependencias y devDependencies especificadas en el archivo package.json de tu proyecto. Estas incluyen bibliotecas como Next.js, React, MongoDB, Tailwind CSS, next-intl, y muchas más que mencionaste en las dependencias financiables (npm fund).
+
+La bandera --legacy-peer-deps:
+Normalmente, a partir de npm 7, npm instala automáticamente las dependencias de "peer" (dependencias pares) si detecta conflictos o ausencias, lo que puede causar problemas en proyectos con configuraciones específicas o versiones avanzadas de frameworks como Next.js 15 y React 19.
+
+La bandera --legacy-peer-deps fuerza a npm a comportarse como en versiones anteriores (antes de npm 7), ignorando las dependencias de peer automáticas y dejando que el desarrollador las gestione manualmente si es necesario. Esto es útil cuando:
+El proyecto tiene dependencias con versiones específicas que podrían entrar en conflicto.
+
+El autor del repo (o tutorial) recomienda esta bandera para garantizar compatibilidad con el entorno exacto en que se desarrolló.
+
+Por qué es necesario en este proyecto:
+Dado que estás trabajando con Next.js 15 y React 19 (versiones recientes y potencialmente inestables en el momento de creación del repo), junto con otras bibliotecas como next-intl, mongoose, react-hook-form, etc., es probable que haya conflictos entre las versiones de las dependencias o sus dependencias pares.
+
+El uso de --legacy-peer-deps asegura que las dependencias se instalen de la misma manera que el autor del proyecto las configuró, evitando errores como "peer dependency not met" o instalaciones rotas que podrían impedir que la aplicación funcione.
+
+
+
 
 6. Admin Login
 
