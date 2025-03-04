@@ -3,7 +3,7 @@
 ## Intro
 
 Hello, everyone!  
-In this video, we’re going to build a fully-functional e-commerce website, just like Amazon, complete with an admin dashboard. We’ll use Next.js, MongoDB, and free AI tools to make it happen.
+In this video, we’re going to build a fully-functional e-commerce website, just like Ebay, complete with an admin dashboard. We’ll use Next.js, MongoDB, and free AI tools to make it happen.
 
 ---
 
@@ -30,7 +30,7 @@ The next section displays **Today’s Deals**, which you can scroll through hori
 
 Further down, we see the **Best Selling Products**. If you hover over a product card for a second, the image changes.
 
-At the bottom of the page, there are personalized sections like **“Related to items you’ve viewed”** and **“Your browsing history,”** similar to what you see on Amazon.
+At the bottom of the page, there are personalized sections like **“Related to items you’ve viewed”** and **“Your browsing history,”** similar to what you see on Ebay.
 
 At the very end, there’s the **website footer**, which includes useful links, the site logo, and copyright information.
 

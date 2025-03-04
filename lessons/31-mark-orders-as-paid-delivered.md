@@ -74,11 +74,11 @@ AskReviewOrderItemsEmail.PreviewProps = {
     taxPrice: 0,
     shippingPrice: 0,
     user: {
-      name: 'John Doe',
-      email: 'john.doe@example.com',
+      name: 'Walter white',
+      email: 'nbarrera476@gmail.com',
     },
     shippingAddress: {
-      fullName: 'John Doe',
+      fullName: 'Walter white',
       street: '123 Main St',
       city: 'New York',
       postalCode: '12345',

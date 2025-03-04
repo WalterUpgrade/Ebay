@@ -55,7 +55,7 @@
    ¿Qué hace npm run seed en este proyecto?
 En proyectos como este, que son aplicaciones de e-commerce basadas en Next.js y MongoDB, npm run seed se utiliza para poblar la base de datos inicial con datos de prueba o de ejemplo. Esto es especialmente importante porque:
 Proporciona datos iniciales para el desarrollo:
-Este proyecto, al ser un clon de una tienda en línea como Amazon, necesita datos de productos, categorías, configuraciones, usuarios (como el admin), y posiblemente órdenes o carritos para que las páginas y funcionalidades se rendericen correctamente.
+Este proyecto, al ser un clon de una tienda en línea como Ebay, necesita datos de productos, categorías, configuraciones, usuarios (como el admin), y posiblemente órdenes o carritos para que las páginas y funcionalidades se rendericen correctamente.
 
 Sin estos datos, funciones como getProductsByTag, getAllCategories, o getSetting en tu archivo HomePage devolverían arrays vacíos, null, o undefined, lo que impediría que componentes como ProductSlider o HomeCarousel muestren contenido.
 

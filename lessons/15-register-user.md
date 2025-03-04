@@ -117,7 +117,7 @@ import { APP_NAME } from '@/lib/constants'
 const signUpDefaultValues =
   process.env.NODE_ENV === 'development'
     ? {
-        name: 'john doe',
+        name: 'Walter',
         email: 'john@me.com',
         password: '123456',
         confirmPassword: '123456',

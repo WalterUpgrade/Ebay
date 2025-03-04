@@ -5,12 +5,12 @@ import { i18n } from '@/i18n-config'
 
 const users: IUserInput[] = [
   {
-    name: 'John',
-    email: 'admin@example.com',
+    name: 'Walter',
+    email: 'nbarrera476@gmail.com',
     password: bcrypt.hashSync('123456', 5),
     role: 'Admin',
     address: {
-      fullName: 'John Doe',
+      fullName: 'Walter White',
       street: '111 Main St',
       city: 'New York',
       province: 'NY',
@@ -1251,7 +1251,7 @@ We also provide helpful resources such as order tracking, product guides, and FA
         pageSize: 9,
       },
       site: {
-        name: 'Europe',
+        name: 'Shop by category',
         description:
           'Vinted is a sample Ecommerce website built with Next.js, Tailwind CSS, and MongoDB.',
         keywords: 'Next Ecommerce, Next.js, Tailwind CSS, MongoDB',

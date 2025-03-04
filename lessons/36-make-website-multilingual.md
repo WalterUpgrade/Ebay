@@ -244,7 +244,7 @@ import { i18n } from '@/i18n-config'
         pageSize: 9,
       },
       site: {
-        name: 'Europe',
+        name: 'Shop by category',
         description:
           'Vinted is a sample Ecommerce website built with Next.js, Tailwind CSS, and MongoDB.',
         keywords: 'Next Ecommerce, Next.js, Tailwind CSS, MongoDB',
@@ -650,7 +650,7 @@ npm i next-intl --legacy-peer-deps
 ```ts
 export const i18n = {
   locales: [
-    { code: 'en-US', name: 'English', icon: '🇺🇸' },
+    { code: 'en-GB', name: 'English', icon: '🇬🇧' },
     { code: 'fr', name: 'Français', icon: '🇫🇷' },
     { code: 'ar', name: 'العربية', icon: '🇸🇦' },
   ],
@@ -2287,7 +2287,7 @@ import { getSetting } from './setting.actions'
 ```ts
 -export const SERVER_URL =
 -  process.env.NEXT_PUBLIC_SERVER_URL || 'http://localhost:3000'
--export const APP_NAME = process.env.NEXT_PUBLIC_APP_NAME || 'Europe'
+-export const APP_NAME = process.env.NEXT_PUBLIC_APP_NAME || 'Shop by category'
 -export const APP_SLOGAN =
 -  process.env.NEXT_PUBLIC_APP_SLOGAN || 'Spend less, enjoy more.'
 -export const APP_DESCRIPTION =
@@ -2682,7 +2682,7 @@ import { isRedirectError } from 'next/dist/client/components/redirect-error'
 const signUpDefaultValues =
   process.env.NODE_ENV === 'development'
     ? {
-        name: 'john doe',
+        name: 'Walter',
         email: 'john@me.com',
         password: '123456',
         confirmPassword: '123456',
