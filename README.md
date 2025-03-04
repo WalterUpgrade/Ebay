@@ -57,12 +57,8 @@ En proyectos como este, que son aplicaciones de e-commerce basadas en Next.js y 
 Proporciona datos iniciales para el desarrollo:
 Este proyecto, al ser un clon de una tienda en línea como Ebay, necesita datos de productos, categorías, configuraciones, usuarios (como el admin), y posiblemente órdenes o carritos para que las páginas y funcionalidades se rendericen correctamente.
 
-Sin estos datos, funciones como getProductsByTag, getAllCategories, o getSetting en tu archivo HomePage devolverían arrays vacíos, null, o undefined, lo que impediría que componentes como ProductSlider o HomeCarousel muestren contenido.
-
 Simula un entorno realista:
 El seeding crea un conjunto de datos predefinidos (por ejemplo, productos como relojes, categorías como "Wrist Watches", etiquetas como "todays-deal" o "best-seller", y configuraciones como carrusels) para que puedas probar la aplicación localmente sin necesidad de crear manualmente cada elemento.
-
-En el caso de tu captura, las secciones "Today's Deals" y "Best Selling Products" no se mostraban porque no había productos en la base de datos con las etiquetas correspondientes hasta que ejecutaste npm run seed.
 
 Facilita el desarrollo y la depuración:
 Al tener datos iniciales, puedes verificar que las consultas a la base de datos, las rutas, los componentes y las acciones del servidor (Server Actions) funcionan como se espera.

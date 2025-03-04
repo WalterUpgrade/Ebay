@@ -332,7 +332,7 @@
         category: 'T-Shirts',
         brand: 'Jerzees',
         images: ['/images/p14-1.jpg', '/images/p14-2.jpg'],
-        tags: ['todays-deal'],
+        tags: ['Daily Deals'],
         isPublished: true,
         price: 26.95,
         listPrice: 46.03,
@@ -948,7 +948,7 @@
     const data: Data = {
       headerMenus: [
         {
-          name: "Today's Deal",
+          name: "Daily Deals",
           href: '/search?tag=todays-deal',
         },
         {

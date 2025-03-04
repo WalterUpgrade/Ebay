@@ -117,7 +117,7 @@
    const data = {
      headerMenus: [
        {
-         name: "Today's Deal",
+         name: "Daily Deals",
          href: '/search?tag=todays-deal',
        },
        {

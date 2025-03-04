@@ -650,7 +650,7 @@ npm i next-intl --legacy-peer-deps
 ```ts
 export const i18n = {
   locales: [
-    { code: 'en-GB', name: 'English', icon: '🇬🇧' },
+    { code: 'en-US', name: 'English', icon: '🇬🇧' },
     { code: 'fr', name: 'Français', icon: '🇫🇷' },
     { code: 'ar', name: 'العربية', icon: '🇸🇦' },
   ],
@@ -733,7 +733,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
     "Dark": "Dark",
     "Light": "Light",
     "Color": "Color",
-    "Today's Deal": "Today's Deal",
+    "Daily Deals": "Daily Deals",
     "New Arrivals": "New Arrivals",
     "Featured Products": "Featured Products",
     "Best Sellers": "Best Sellers",
@@ -753,7 +753,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
     "Featured Products": "Featured Products",
     "View All": "View All",
     "Shop Now": "Shop Now",
-    "Today's Deals": "Today's Deals",
+    "Daily Deals": "Daily Deals",
     "Best Selling Products": "Best Selling Products",
     "Related to items that you've viewed": "Related to items that you've viewed",
     "Your browsing history": "Your browsing history",
@@ -951,7 +951,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
     "Dark": "داكن",
     "Light": "فاتح",
     "Color": "اللون",
-    "Today's Deal": "صفقة اليوم",
+    "Daily Deals": "العروض اليومية",
     "New Arrivals": "الوافدين الجدد",
     "Featured Products": "المنتجات المميزة",
     "Best Sellers": "الأكثر مبيعًا",
@@ -971,7 +971,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
     "Featured Products": "المنتجات المميزة",
     "View All": "عرض الكل",
     "Shop Now": "تسوق الآن",
-    "Today's Deals": "عروض اليوم",
+    "Daily Deals": "العروض اليومية",
     "Best Selling Products": "المنتجات الأكثر مبيعًا",
     "Related to items that you've viewed": "ذات صلة بالعناصر التي عرضتها",
     "Your browsing history": "سجل التصفح الخاص بك",
@@ -1170,7 +1170,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
     "Dark": "Sombre",
     "Light": "Clair",
     "Color": "Couleur",
-    "Today's Deal": "Offre du jour",
+    "Daily Deals": "Offres quotidiennes",
     "New Arrivals": "Nouveautés",
     "Featured Products": "Produits vedettes",
     "Best Sellers": "Meilleures ventes",
@@ -1190,7 +1190,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
     "Featured Products": "Produits vedettes",
     "View All": "Tout afficher",
     "Shop Now": "Acheter maintenant",
-    "Today's Deals": "Offres du jour",
+    "Daily Deals": "Offres du jour",
     "Best Selling Products": "Produits les plus vendus",
     "Related to items that you've viewed": "Lié aux articles que vous avez consultés",
     "Your browsing history": "Votre historique de navigation",
@@ -2867,7 +2867,7 @@ import { getTranslations } from 'next-intl/server'
 export default async function HomePage() {
   const t = await getTranslations('Home')
   const { carousels } = await getSetting()
-  const todaysDeals = await getProductsByTag({ tag: 'todays-deal' })
+  const todaysDeals = await getProductsByTag({ tag: 'Daily Deals' })
   const bestSellingProducts = await getProductsByTag({ tag: 'best-seller' })
 
   const categories = (await getAllCategories()).slice(0, 4)
@@ -2926,7 +2926,7 @@ export default async function HomePage() {
         <HomeCard cards={cards} />
         <Card className='w-full rounded-none'>
           <CardContent className='p-4 items-center gap-3'>
-            <ProductSlider title={t("Today's Deals")} products={todaysDeals} />
+            <ProductSlider title={t("Daily Deals")} products={todaysDeals} />
           </CardContent>
         </Card>
         <Card className='w-full rounded-none'>

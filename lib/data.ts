@@ -1067,11 +1067,7 @@ const data: Data = {
     {
       title: 'About Us',
       slug: 'about-us',
-      content: `Welcome to [Your Store Name], your trusted destination for quality products and exceptional service. Our journey began with a mission to bring you the best shopping experience by offering a wide range of products at competitive prices, all in one convenient platform.
-
-At [Your Store Name], we prioritize customer satisfaction and innovation. Our team works tirelessly to curate a diverse selection of items, from everyday essentials to exclusive deals, ensuring there's something for everyone. We also strive to make your shopping experience seamless with fast shipping, secure payments, and excellent customer support.
-
-As we continue to grow, our commitment to quality and service remains unwavering. Thank you for choosing [Your Store Name]—we look forward to being a part of your journey and delivering value every step of the way.`,
+      content: `Welcome to [Your Store Name],`,
       isPublished: true,
     },
     {
@@ -1186,7 +1182,7 @@ We also provide helpful resources such as order tracking, product guides, and FA
   ],
   headerMenus: [
     {
-      name: "Today's Deal",
+      name: "Daily Deals",
       href: '/search?tag=todays-deal',
     },
     {

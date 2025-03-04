@@ -421,7 +421,7 @@ import {
 } from '@/lib/actions/product.actions'
 
 export default async function HomePage() {
-  const todaysDeals = await getProductsByTag({ tag: 'todays-deal' })
+  const todaysDeals = await getProductsByTag({ tag: 'Daily Deals' })
 
   return (
     <>
@@ -430,7 +430,7 @@ export default async function HomePage() {
         <HomeCard cards={cards} />
         <Card className='w-full rounded-none'>
           <CardContent className='p-4 items-center gap-3'>
-            <ProductSlider title={"Today's Deals"} products={todaysDeals} />
+            <ProductSlider title={"Daily Deals"} products={todaysDeals} />
           </CardContent>
         </Card>
       </div>

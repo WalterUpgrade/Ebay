@@ -16,7 +16,7 @@ import { getTranslations } from 'next-intl/server'
 export default async function HomePage() {
   const t = await getTranslations('Home')
   const { carousels } = await getSetting()
-  const todaysDeals = await getProductsByTag({ tag: 'todays-deal' })
+  const todaysDeals = await getProductsByTag({ tag: 'Daily Deals' })
   const bestSellingProducts = await getProductsByTag({ tag: 'best-seller' })
 
   const categories = (await getAllCategories()).slice(0, 4)
@@ -75,7 +75,7 @@ export default async function HomePage() {
         <HomeCard cards={cards} />
         <Card className='w-full rounded-none'>
           <CardContent className='p-4 items-center gap-3'>
-            <ProductSlider title={t("Today's Deals")} products={todaysDeals} />
+            <ProductSlider title={t("Daily Deals")} products={todaysDeals} />
           </CardContent>
         </Card>
         <Card className='w-full rounded-none'>
