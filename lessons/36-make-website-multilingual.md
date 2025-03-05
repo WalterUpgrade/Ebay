@@ -244,7 +244,7 @@ import { i18n } from '@/i18n-config'
         pageSize: 9,
       },
       site: {
-        name: 'Shop by category',
+        name: 'Search for anything',
         description:
           'Vinted is a sample Ecommerce website built with Next.js, Tailwind CSS, and MongoDB.',
         keywords: 'Next Ecommerce, Next.js, Tailwind CSS, MongoDB',
@@ -2287,12 +2287,12 @@ import { getSetting } from './setting.actions'
 ```ts
 -export const SERVER_URL =
 -  process.env.NEXT_PUBLIC_SERVER_URL || 'http://localhost:3000'
--export const APP_NAME = process.env.NEXT_PUBLIC_APP_NAME || 'Shop by category'
+-export const APP_NAME = process.env.NEXT_PUBLIC_APP_NAME || 'Search for anything'
 -export const APP_SLOGAN =
 -  process.env.NEXT_PUBLIC_APP_SLOGAN || 'Spend less, enjoy more.'
 -export const APP_DESCRIPTION =
 -  process.env.NEXT_PUBLIC_APP_DESCRIPTION ||
--  'An Amazon clone built with Next.js and MongoDB'
+-  'An Ebay clone built with Next.js and MongoDB'
 -export const APP_COPYRIGHT =
 -  process.env.NEXT_PUBLIC_APP_COPYRIGHT ||
 -  `Copyright © 2025 ${APP_NAME}. All rights reserved.`

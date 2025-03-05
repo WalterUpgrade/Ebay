@@ -1065,9 +1065,10 @@ const data: Data = {
   reviews,
   webPages: [
     {
-      title: 'About Us',
+      title: 'eBay Developers Program',
       slug: 'about-us',
-      content: `Welcome to [Your Store Name],`,
+      content: `NEW Exciting updates and expanded benefits are coming to eBay’s Developer Loyalty Program. Don’t miss out! Learn more.
+                Building blocks for buying and selling on eBay from anywhere online`,
       isPublished: true,
     },
     {
@@ -1091,18 +1092,21 @@ We look forward to assisting you! Your satisfaction is our priority.
       isPublished: true,
     },
     {
-      title: 'Help',
+      title: 'How can we help you today?',
       slug: 'help',
-      content: `Welcome to our Help Center! We're here to assist you with any questions or concerns you may have while shopping with us. Whether you need help with orders, account management, or product inquiries, this page provides all the information you need to navigate our platform with ease.
+      content: `If the estimated delivery date for your order has passed and your item hasn't arrived, you can let the seller know by reporting that you didn't receive it..
 
-**Placing and Managing Orders**
-Placing an order is simple and secure. Browse our product categories, add items to your cart, and proceed to checkout. Once your order is placed, you can track its status through your account under the "My Orders" section. If you need to modify or cancel your order, please contact us as soon as possible for assistance.
+**Report that your item hasn't arrived**
+You have up to 30 calendar days after the estimated delivery date has passed to report that an item hasn't arrived.
+The seller should respond within 3 business days to provide a delivery update, offer a replacement, or give you a refund. If you're getting a refund, it will go back to your original payment method. Refunds are typically available within 3-5 business days.
 
-**Shipping and Returns**
-We offer a variety of shipping options to suit your needs, including standard and express delivery. For detailed shipping costs and delivery timelines, visit our Shipping Policy page. If you're not satisfied with your purchase, our hassle-free return process allows you to initiate a return within the specified timeframe. Check our Returns Policy for more details.
 
-**Account and Support**
-Managing your account is easy. Log in to update your personal information, payment methods, and saved addresses. If you encounter any issues or need further assistance, our customer support team is available via email, live chat, or phone. Visit our Contact Us page for support hours and contact details.`,
+**If your order arrives after you've reported it**
+If your item arrives, you can close your request. This lets the seller know that the issue is resolved.
+If there's a problem with the item or you want to return it, you'll need to close your item not received request,
+
+**Check your item's delivery information**
+Your item may still be in transit. Find the item in your Purchases to see the expected delivery date, the address it's being delivered to, and the latest tracking updates.`,
       isPublished: true,
     },
     {
@@ -1118,23 +1122,25 @@ Your data is safeguarded through robust security measures to prevent unauthorize
     {
       title: 'Conditions of Use',
       slug: 'conditions-of-use',
-      content: `Welcome to [Ecommerce Website Name]. By accessing or using our website, you agree to comply with and be bound by the following terms and conditions. These terms govern your use of our platform, including browsing, purchasing products, and interacting with any content or services provided. You must be at least 18 years old or have the consent of a parent or guardian to use this website. Any breach of these terms may result in the termination of your access to our platform.
+      content: `If you think someone is trying to hack your account—or already has—we’ll work with you to secure it. For your protection, we may place a temporary hold on your account.
 
 We strive to ensure all product descriptions, pricing, and availability information on our website are accurate. However, errors may occur, and we reserve the right to correct them without prior notice. All purchases are subject to our return and refund policy. By using our site, you acknowledge that your personal information will be processed according to our privacy policy, ensuring your data is handled securely and responsibly. Please review these terms carefully before proceeding with any transactions.
 `,
       isPublished: true,
     },
     {
-      title: 'Customer Service',
+      title: 'Get help with a hacked account',
       slug: 'customer-service',
-      content: `At [Your Store Name], our customer service team is here to ensure you have the best shopping experience. Whether you need assistance with orders, product details, or returns, we are committed to providing prompt and helpful support.
+      content: `If you have questions or concerns, please reach out to us through our multiple contact options:
 
-If you have questions or concerns, please reach out to us through our multiple contact options:
-- **Email:** support@example.com
-- **Phone:** +1 (123) 456-7890
-- **Live Chat:** Available on our website for instant assistance
+- **What to do if your account has been hacked:**
+Change your password immediately.Verify your contact information, shipping addresses and payment details. If anything was changed by the person who hacked your account, change it back.
+Check your active bids and listings to make sure they’re yours. 
+Contact us for help with removing unauthorized bids or listings. If there’s been no fraudulent activity on your account, you don’t need to contact us.
+- **If you can’t sign into your account:** If you can’t sign in to your account, contact us immediately.
+- **Signs your account has been hacked:** Changes to your password, contact information, or address details. If someone has used your eBay account without your permission, you should contact your credit card company and your bank. You may also want to file a police report.
 
-We also provide helpful resources such as order tracking, product guides, and FAQs to assist you with common inquiries. Your satisfaction is our priority, and we’re here to resolve any issues quickly and efficiently. Thank you for choosing us!`,
+If you believe your account has been hacked, change your password as soon as possible. If you can’t sign in, contact us immediately and we’ll help you secure your account.`,
       isPublished: true,
     },
     {
@@ -1247,9 +1253,9 @@ We also provide helpful resources such as order tracking, product guides, and FA
         pageSize: 9,
       },
       site: {
-        name: 'Shop by category',
+        name: 'Search for anything',
         description:
-          'Vinted is a sample Ecommerce website built with Next.js, Tailwind CSS, and MongoDB.',
+          'Ebay is a sample Ecommerce website built with Next.js, Tailwind CSS, and MongoDB.',
         keywords: 'Next Ecommerce, Next.js, Tailwind CSS, MongoDB',
         url: 'https://next-mongo-ecommerce-final.vercel.app',
         logo: '/icons/logo.svg',

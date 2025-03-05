@@ -3,7 +3,7 @@
 1. create .env.local
 
    ```env
-    NEXT_PUBLIC_APP_NAME=Shop by category
+    NEXT_PUBLIC_APP_NAME=Search for anything
     NEXT_PUBLIC_APP_SLOGAN=Spend less, enjoy more.
     NEXT_PUBLIC_APP_DESCRIPTION=An Vinted clone built with Next.js and MongoDB
    ```
@@ -11,7 +11,7 @@
 2. lib/constants.ts
 
    ```ts
-   export const APP_NAME = process.env.NEXT_PUBLIC_APP_NAME || 'Shop by category'
+   export const APP_NAME = process.env.NEXT_PUBLIC_APP_NAME || 'Search for anything'
    export const APP_SLOGAN =
      process.env.NEXT_PUBLIC_APP_SLOGAN || 'Spend less, enjoy more.'
    export const APP_DESCRIPTION =

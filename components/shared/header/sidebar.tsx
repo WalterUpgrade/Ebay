@@ -67,7 +67,7 @@ export default async function Sidebar({
             </DrawerClose>
           </div>
 
-          {/* Shop By Category */}
+          {/* Search for anything */}
           <div className='flex-1 overflow-y-auto'>
             <div className='p-4 border-b'>
               <h2 className='text-lg font-semibold'>
