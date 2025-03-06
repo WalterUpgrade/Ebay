@@ -103,13 +103,7 @@ export default function CollapsibleOnMobile({
 
 ```ts
 'use client'
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from '@/components/ui/select'
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue, } from '@/components/ui/select'
 import { getFilterUrl } from '@/lib/utils'
 import { useRouter } from 'next/navigation'
 import React from 'react'
@@ -279,16 +273,11 @@ import Link from 'next/link'
 import Pagination from '@/components/shared/pagination'
 import ProductCard from '@/components/shared/product/product-card'
 import { Button } from '@/components/ui/button'
-import {
-  getAllCategories,
-  getAllProducts,
-  getAllTags,
-} from '@/lib/actions/product.actions'
+import { getAllCategories, getAllProducts, getAllTags, } from '@/lib/actions/product.actions'
 import { IProduct } from '@/lib/db/models/product.model'
 import ProductSortSelector from '@/components/shared/product/product-sort-selector'
 import { getFilterUrl, toSlug } from '@/lib/utils'
 import Rating from '@/components/shared/product/rating'
-
 import CollapsibleOnMobile from '@/components/shared/collapsible-on-mobile'
 
 const sortOrders = [

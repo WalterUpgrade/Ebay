@@ -16,7 +16,7 @@
      process.env.NEXT_PUBLIC_APP_SLOGAN || 'Spend less, enjoy more.'
    export const APP_DESCRIPTION =
      process.env.NEXT_PUBLIC_APP_DESCRIPTION ||
-     'An Vinted clone built with Next.js and MongoDB'
+     'An Ebay clone built with Next.js and MongoDB'
    ```
 
 3. create logo.svg and save in /public/icons folder
