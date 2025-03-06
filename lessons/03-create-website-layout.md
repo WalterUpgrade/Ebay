@@ -12,6 +12,8 @@
 
    ```ts
    export const APP_NAME = process.env.NEXT_PUBLIC_APP_NAME || 'Search for anything'
+   console.log('APP_NAME desde .env:', process.env.NEXT_PUBLIC_APP_NAME); // Agrega este log
+
    export const APP_SLOGAN =
      process.env.NEXT_PUBLIC_APP_SLOGAN || 'Spend less, enjoy more.'
    export const APP_DESCRIPTION =
@@ -64,14 +66,7 @@
    ```tsx
    import { SearchIcon } from 'lucide-react'
    import { Input } from '@/components/ui/input'
-
-   import {
-     Select,
-     SelectContent,
-     SelectItem,
-     SelectTrigger,
-     SelectValue,
-   } from '@/components/ui/select'
+   import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue, } from '@/components/ui/select'
    import { APP_NAME } from '@/lib/constants'
    const categories = ['men', 'women', 'kids', 'accessories']
    export default async function Search() {

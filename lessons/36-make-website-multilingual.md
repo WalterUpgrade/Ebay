@@ -2401,19 +2401,11 @@ export default async function AuthLayout({
 ```ts
 'use client'
 import { redirect, useSearchParams } from 'next/navigation'
-
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import Link from 'next/link'
 import useSettingStore from '@/hooks/use-setting-store'
-import {
-  Form,
-  FormControl,
-  FormField,
-  FormItem,
-  FormLabel,
-  FormMessage,
-} from '@/components/ui/form'
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage, } from '@/components/ui/form'
 import { useForm } from 'react-hook-form'
 import { IUserSignIn } from '@/types'
 import { signInWithCredentials } from '@/lib/actions/user.actions'
@@ -2662,14 +2654,7 @@ import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import Link from 'next/link'
 import useSettingStore from '@/hooks/use-setting-store'
-import {
-  Form,
-  FormControl,
-  FormField,
-  FormItem,
-  FormLabel,
-  FormMessage,
-} from '@/components/ui/form'
+<import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage, } from '@/components/ui/form'>
 import { useForm } from 'react-hook-form'
 import { IUserSignUp } from '@/types'
 import { registerUser, signInWithCredentials } from '@/lib/actions/user.actions'
@@ -2854,12 +2839,7 @@ import { HomeCard } from '@/components/shared/home/home-card'
 import { HomeCarousel } from '@/components/shared/home/home-carousel'
 import ProductSlider from '@/components/shared/product/product-slider'
 import { Card, CardContent } from '@/components/ui/card'
-
-import {
-  getProductsForCard,
-  getProductsByTag,
-  getAllCategories,
-} from '@/lib/actions/product.actions'
+import { getProductsForCard, getProductsByTag, getAllCategories, } from '@/lib/actions/product.actions'
 import { getSetting } from '@/lib/actions/setting.actions'
 import { toSlug } from '@/lib/utils'
 import { getTranslations } from 'next-intl/server'
@@ -3024,16 +3004,8 @@ import { useSession } from 'next-auth/react'
 import { useForm } from 'react-hook-form'
 import { z } from 'zod'
 import { useRouter } from 'next/navigation'
-
 import { Button } from '@/components/ui/button'
-import {
-  Form,
-  FormControl,
-  FormField,
-  FormItem,
-  FormLabel,
-  FormMessage,
-} from '@/components/ui/form'
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage, } from '@/components/ui/form'
 import { Input } from '@/components/ui/input'
 import { useToast } from '@/hooks/use-toast'
 import { updateUserName } from '@/lib/actions/user.actions'
@@ -3204,7 +3176,6 @@ export default async function ProfilePage() {
 ```ts
 import { notFound } from 'next/navigation'
 import React from 'react'
-
 import { auth } from '@/auth'
 import { getOrderById } from '@/lib/actions/order.actions'
 import OrderDetailsForm from '@/components/shared/order/order-details-form'

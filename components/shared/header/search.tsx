@@ -1,15 +1,12 @@
-import { SearchIcon } from 'lucide-react'
+//Este código define un componente de búsqueda en Next.js que:
+//Carga las categorías desde getAllCategories().
+//Obtiene configuraciones del sitio (getSetting()).
+//Obtiene traducciones (getTranslations()).
 
+import { SearchIcon } from 'lucide-react'
 import { Input } from '@/components/ui/input'
 import { getAllCategories } from '@/lib/actions/product.actions'
-
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from '../../ui/select'
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue, } from '../../ui/select'
 import { getSetting } from '@/lib/actions/setting.actions'
 import { getTranslations } from 'next-intl/server'
 

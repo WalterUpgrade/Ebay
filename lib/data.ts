@@ -1253,7 +1253,7 @@ If you believe your account has been hacked, change your password as soon as pos
         pageSize: 9,
       },
       site: {
-        name: 'Search for anything',
+        name: 'Ebay',
         description:
           'Ebay is a sample Ecommerce website built with Next.js, Tailwind CSS, and MongoDB.',
         keywords: 'Next Ecommerce, Next.js, Tailwind CSS, MongoDB',

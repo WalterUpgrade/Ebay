@@ -7,6 +7,8 @@ import data from '@/lib/data'
 import Sidebar from './sidebar'
 import { getSetting } from '@/lib/actions/setting.actions'
 import { getTranslations } from 'next-intl/server'
+import LocationSelector from './LocationSelector'; // Nueva importación
+
 
 export default async function Header() {
   const categories = await getAllCategories()
@@ -27,7 +29,7 @@ export default async function Header() {
                 height={40}
                 alt={`${site.name} logo`}
               />
-              {site.name}
+              <LocationSelector />
             </Link>
           </div>
 
