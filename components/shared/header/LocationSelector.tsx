@@ -6,7 +6,10 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 
-// Lista de países con tipos
+// Estructura general Importaciones: 
+// Utiliza hooks de React (useState, useEffect), íconos de lucide-react (MapPin, X), componentes de UI personalizados (Select, Input, Button) y define una interfaz Country para tipar los datos de los países.
+// LocationSelector es una función que maneja el estado y la interfaz para seleccionar y mostrar la ubicación.
+
 interface Country {
   code: string;
   name: string;

@@ -320,7 +320,7 @@ const products: IProductInput[] = [
       'Made with sustainably sourced USA grown cotton; Shoulder-to-shoulder tape; double-needle coverstitched front neck; Set-in sleeves; Rib cuffs with concealed seams; Seamless body for a wide printing area',
 
     sizes: ['S', 'M', 'L', 'XL', 'XXL'],
-    colors: ['Yellow', 'Red', 'Black'],
+    colors: ['Green', 'Red', 'Black'],
 
     reviews: [],
   },
@@ -348,7 +348,7 @@ const products: IProductInput[] = [
     description:
       'The Jerzees long sleeve t-shirt is made with dri-power technology that wicks away moisture to keep you cool and dry throughout your day. We also included a rib collar and cuffs for added durability, and a lay-flat collar for comfort. If you are looking for a versatile shirt that you can wear throughout the transitioning seasons, then look no further.',
     sizes: ['XL', 'XXL'],
-    colors: ['Green', 'White'],
+    colors: ['Bordeaux', 'Black'],
 
     reviews: [],
   },
@@ -378,7 +378,7 @@ const products: IProductInput[] = [
     description:
       'Elevate your outfit with this soft long sleeve t shirt men. This full sleeves tee is the ultimate upgrade from your regular cotton t-shirt. ',
     sizes: ['XL', 'XXL'],
-    colors: ['Yellow', 'White'],
+    colors: ['Blue', 'White'],
 
     reviews: [],
   },
